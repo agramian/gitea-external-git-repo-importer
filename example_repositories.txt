@@ -1,0 +1,6 @@
+https://external-host.com/extuser/repo1.git https://github.com/ghuser/repo1.git
+https://external-host.com/extuser/repo2.git https://github.com/orgname/repo2.git
+ssh://git@external-host.com/extuser/repo3.git ssh://git@github.com/ghuser/repo3.git
+# If the "ssh://" prefix is not included on the url,
+# note the different separator (":" vs "/") after the domain.
+git@external-host.com:extuser/repo4.git git@github.com:ghuser/repo4.git
