@@ -21,7 +21,7 @@ it is [not supported via the Gitea CLI yet](https://gitea.com/gitea/tea/issues/4
 ## Usage
 1. Make sure the Gitea CLI is authenticated:
 
-        gitea login add
+        tea login add
 
 1. Prepare a file listing the external and Gitea repositories, one pair per line (ex: `external_repo_url gitea_repo_url`).
    
